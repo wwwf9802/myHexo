@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[新的开始]]></title>
+    <url>%2F2018%2F02%2F23%2FnewBegin%2F</url>
+    <content type="text"><![CDATA[逝者如斯夫，不舍昼夜。不知不觉中回家一个月了，速度是相对的，感觉时间也一样。这一个月我是静止的，时间却不会停下脚步。 家，是这么的温暖，这么的舒适。我就这样被这份温暖和舒适包围着，隔绝了时间，直到我发现我该走了。就像睡了很长的一觉，醒来似乎只过了一秒。 四年没回来了，一次都没有。我满怀柔情的回来，我满怀期待的回来。来之时我一直以为我是一个归人。渐渐的发现，原来我是个来者。我已经与这座小城市格格不入，或许只是因为我还不够强大，强大到不受环境的影响。 我不怕时间飞逝，我怕虚度光阴。我不怕道路荆棘，我怕失去方向。 挫折和离别不过是生命中的点缀，过了多年我才读懂了家人的眼泪，发现自己原来没有说再见的勇气，离别的伤感感染了满城的空气。失去后才知道那些有多么的珍贵，亲爱的朋友们是否已经展翅纷飞？外面的世界散发着强大的磁场，诱惑着每一双即将展开的翅膀。热恋的火在沉默中凶猛的燃烧，美丽的火花在恋人的周围环绕。这过程很美尽管有无奈和失落，刻骨铭心的爱过尽管她爱的并不是我。如果没有离别如何学会承受打击？如果没有跌倒如何能够学会爬起？ 下一站，成都。]]></content>
+      <categories>
+        <category>情感生活</category>
+      </categories>
+      <tags>
+        <tag>情感生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[搭建hexo博客]]></title>
     <url>%2F2017%2F10%2F07%2Fwelcome%2F</url>
     <content type="text"><![CDATA[终于有时间给自己搭建博客，总结一番~ 1.技术选型三种方案：wordPress,hexo,自己撸个博客wordPress:以前玩过，但是有点重，需要独立的服务器，需要数据库，优点：写东西方便，有数据库好备份。 hexo:基于node,说白了就是写好模板主题，用node生成静态页面然后部署到服务器上，缺点：比较麻烦，数据不好管理，写博文麻烦，我估计发布的博文多了会很吃内存，因为全部是静态页面；优点：不需要数据库，服务器可以用github,coding的Pages服务，很轻量，也很灵活。 自己撸：其实一直很想基于node-koa-mongdb，前后端一起写，自己撸个博客，好好练练自己的node在服务端的不足，如果做全注册，登录，评论，分类，标签，加上UI（我能看出美的东西，要求也很高，可我自己不会设计o(╯□╰)o）工程量还是有点大的。。不撸个1个月，估计很难撸出自己满意的东东，心有余，时不足。 自己的node感觉不过关，喜欢和node有关的一切~最终选择了hexo,选择了next主题，做了一键部署，熟悉了markDownmaD语法后，发布博文也很快，感觉也蛮不错的~ 2.搭建流程及常用命令安装node环境新建myHexo文件夹全局安装hex-cli，hexo,进入myHexo目录，执行hexo init执行npm install12345$ npm install hexo-cli -g$ npm install hexo -g$ cd myhexo$ hexo init$ npm install 然后就可以参考hexo官方文档和next主题官方教程 修改各种配置，菜单、执行hexo g,hexo s，在本地先跑起来123$ hexo clean //清楚之前生成的静态文件$ hexo g //生成新的静态文件$ hexo s //启动本地服务 最后就是部署到github或者coding上，2个都部署也可以，详细方法点这里 注：一定要安装 hexo-deployer-git，否则hexo d命令会报错12$ npm install hexo-deployer-git --save-dev //hexo部署插件$ hexo d //生成静态文件并部署到指定环境 如果配置无误，hexo d命令执行完毕后 控制台会打印出INFO Deploy done:git,这说明部署成功，访问自己项目PagesUrl就能够看见自己的博客了]]></content>
